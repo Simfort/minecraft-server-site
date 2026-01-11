@@ -47,7 +47,7 @@ export default function Header() {
           </motion.div>
 
           {/* Меню (свёрнуто на мобильных) */}
-          <nav className="flex flex-wrap justify-center gap-6 text-white/90 text-base sm:text-lg font-medium">
+          <nav className="flex flex-wrap  justify-center gap-6 text-white/90 text-base sm:text-lg font-medium">
             <motion.a
               whileHover={{ y: -2, color: "#60A5FA" }}
               transition={{ duration: 0.3 }}
